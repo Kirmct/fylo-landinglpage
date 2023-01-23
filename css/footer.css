@@ -1,0 +1,38 @@
+.footer-bg {
+  background: var(--color-p1);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer {
+  gap: 20px;
+}
+
+.links-contact a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.links-contact a img {
+  width: 16px;
+  margin-right: 10px;
+}
+
+.about-us ul,
+.contact-us ul {
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.attribution a {
+  line-height: 1.5rem;
+}
+
+.attribution a span {
+  color: goldenrod;
+}
+
+@media (max-width: 800px) {
+  .links {
+    grid-template-columns: 1fr;
+  }
+}

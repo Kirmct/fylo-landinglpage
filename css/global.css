@@ -30,7 +30,9 @@ img {
   max-width: 100%;
   display: block;
 }
-
+address {
+  font-style: normal;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -56,6 +58,10 @@ ul {
 }
 .column-2 {
   grid-template-columns: 1fr 1fr;
+}
+
+.column-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .container {
