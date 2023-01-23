@@ -51,7 +51,9 @@ ul {
 .column {
   flex-direction: column;
 }
-
+.column-1 {
+  grid-template-columns: 1fr;
+}
 .column-2 {
   grid-template-columns: 1fr 1fr;
 }
