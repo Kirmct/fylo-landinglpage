@@ -1,0 +1,28 @@
+:root {
+  --color-p1: hsl(243, 87%, 12%);
+  --color-p2: hsl(238, 22%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
