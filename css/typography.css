@@ -12,12 +12,23 @@
   font-weight: 400;
 }
 
-.font-1-s {
+.font-1-xs {
   font-family: "Raleway", sans-serif;
-  font-size: 0.875rem;
-  letter-spacing: 0.1rem;
+  font-size: 0.65rem;
   font-weight: 400;
 }
 
+.font-1-s {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.font-2-m {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
